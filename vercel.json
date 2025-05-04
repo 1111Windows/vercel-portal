@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/:url",
-      "destination": "/api/redirect?url=:url"
-    }
-  ]
-}
