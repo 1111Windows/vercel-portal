@@ -1,8 +1,18 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "next"
+    }
+  ],
   "rewrites": [
     {
       "source": "/:url",
       "destination": "/api/redirect?url=:url"
     }
-  ]
+  ],
+  "output": {
+    "directory": ".next"
+  }
 }
